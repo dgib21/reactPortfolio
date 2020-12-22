@@ -35,7 +35,7 @@ body {
 	line-height: 1.5;
 	font-size: 18px;
 	letter-spacing: .1em;
-	background: lightblue;
+	background: var(--dark);
 	color: var(--light);
 	/* font-family: 'Poiret One', cursive; */
 	font-family: 'Courier New', Courier, monospace;
@@ -84,7 +84,7 @@ p {
 }
 
 a {
-	color: white;
+	color: red;
 	text-decoration: none;
 	font-weight: bold;
 	border-radius: 5px;
@@ -99,7 +99,7 @@ a:hover {
 }
 
 header {
-	background: black;
+	background: lightblue;
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;
@@ -332,7 +332,6 @@ textarea {
 	margin: 5px 0;
 	line-height: 1.25;
 	padding-bottom: 2rem;
-	color: white; 
 }
 
 .bottom-spacing {
@@ -346,18 +345,18 @@ textarea {
 
 .card-title {
 	font-size: 1.5rem;
-	color: white;
+	color: var(--quaternary);
 }
 
 .card-subtitle {
 	font-size: 1rem;
-	color: white;
+	color: var(--tertiary);
 }
 
 .card-text {
 	font-size: 0.75rem;
 	height: 8rem;
-	color: white;
+	color: var(--quinary);
 }
 
 .card-techs {

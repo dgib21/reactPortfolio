@@ -1,4 +1,6 @@
 import React from "react";
+import profileImage from "../../assets/images/profilePic.png";
+
 
 function About() {
 	return (
@@ -9,7 +11,7 @@ function About() {
 			<div className="center">
 
 			<img
-					src={require("../../assets/images/profilePic.png")}
+					src={profileImage}
 					className="photo"
 				/>
 				
